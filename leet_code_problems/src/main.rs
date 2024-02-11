@@ -3,6 +3,7 @@ mod two_sum;
 mod find_odd_int;
 mod top_k_freq_elem;
 mod product_except_self;
+
 // #[test]
 pub fn run_valid_anagrams() {
     let s:String = String::from("anagram");
@@ -44,7 +45,7 @@ pub fn run_top_k_frequent() {
     assert_eq!(expected,result);
 }
 
-#[test]
+// #[test]
 pub fn run_product_except_self() {
     let nums: Vec<i32> = vec![1,2,3,4];
     
@@ -58,9 +59,16 @@ pub fn run_product_except_self() {
 }
 
 fn main() {
+    // Uncomment function to be tested
+
+    // run_valid_anagrams();
+
+    // run_two_sum();
+
+    // run_find_odd();
 
     // run_top_k_frequent();
 
-
+    // run_product_except_self();
     
 }
